@@ -1,0 +1,16 @@
+venv/
+__pycache__/
+
+*.png
+*.jpg
+*.jpeg
+*.json
+
+*.pt
+
+.DS_Store
+*.ipynb_checkpoints/
+
+My-First-Project-1
+runs
+imagensDeTeste
