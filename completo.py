@@ -5,7 +5,7 @@ import time
 
 CAMERA_INDEX = 0
 MODELO_PATH = r"runs\detect\train4\weights\best.pt"
-CM_POR_PIXEL = 1 / 50  
+CM_POR_PIXEL = 0.0927  
 
 lista_altura = []
 lista_largura = []
