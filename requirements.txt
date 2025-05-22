@@ -4,3 +4,4 @@ torchaudio @ https://download.pytorch.org/whl/cu118/torchaudio-2.1.2%2Bcu118-cp3
 ultralytics
 opencv-python
 roboflow
+fastapi
