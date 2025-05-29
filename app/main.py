@@ -28,7 +28,6 @@ def main():
         else:
             print("Opção inválida.")
 
-    # Só salva se realmente mediu algo
     if len(sample) > 3:
         add_sample(cpf, sample)
         persist_sample(cpf, sample)
