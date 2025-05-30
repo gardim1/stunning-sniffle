@@ -64,15 +64,4 @@ Arquivos de saída:
 * JSONs salvos em `data/medidas/`
 * Frames de auditoria em `data/frames/`
 
----
 
-## Análise de Pontuação da Sprint
-| Critério | Pontos | Evidência |
-|----------|--------|-----------|
-| Documento de envoltória | ✅ | Este arquivo |
-| Identificação do grupo | ✅ | Tabela acima |
-| Hipóteses & dados | ✅ | Seção “Hipóteses” |
-| Documentação de código | ✅ | Docstrings + tabela de módulos |
-| Readme  | ✅ | README |
-| Script Python rodando | ✅ | `python -m app.main` + API |
-| **Total estimado** | **100 pts** | – |
