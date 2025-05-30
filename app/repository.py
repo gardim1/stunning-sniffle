@@ -20,11 +20,9 @@ def _ts() -> str:
 
 
 def add_sample(cpf: str, sample: Dict) -> None:
-    """Insere mantendo a lista ordenada em O(log n)."""
     insort(_samples_by_ts, (_ts(), cpf, sample))
 
 def samples_by_cpf(cpf: str) -> List[Dict]:
-    """Retorna todas as amostras de um paciente (varredura)."""
     return [s for _, c, s in _samples_by_ts if c == cpf]
 
 
@@ -32,7 +30,6 @@ def _path_cpf(cpf: str) -> Path:
     return MEDIDAS_DIR / f"{cpf}.json"
 
 def persist_sample(cpf: str, sample: Dict) -> None:
-    """Acrescenta sample no arquivo JSON daquele CPF."""
     path = _path_cpf(cpf)
     try:
         dados = json.loads(path.read_text(encoding="utf-8"))
